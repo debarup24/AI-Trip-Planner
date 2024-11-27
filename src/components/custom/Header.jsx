@@ -3,9 +3,9 @@ import { Button } from "../ui/button";
 
 const Header = () => {
   return (
-    <div className="p-4 shadow-sm shadow-green-300 flex justify-between items-center px-10">
+    <div className="p-4 w-full shadow-sm shadow-gray-200 flex justify-between items-center px-10">
       <img src=" /logo.svg " alt="logo" />
-      <div>
+      <div className="flex flex-row">
         <Button>Sign In</Button>
       </div>
     </div>
